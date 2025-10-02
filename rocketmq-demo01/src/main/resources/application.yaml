@@ -1,0 +1,9 @@
+server:
+  port: 8219
+spring:
+  application:
+    name: rocketmq-demo01
+
+rocketmq:
+  proxy-endpoint: 127.0.01:8081
+  topic: test01

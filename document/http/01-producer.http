@@ -1,0 +1,8 @@
+### 01-发送消息
+GET http://127.0.0.1:8219/producer/send?msg=hello-mq-test02
+Accept: application/json
+
+
+### 02-say
+GET http://127.0.0.1:8219/producer/say
+Accept: application/json
