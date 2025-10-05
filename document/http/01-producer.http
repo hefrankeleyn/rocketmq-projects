@@ -6,3 +6,9 @@ Accept: application/json
 ### 02-say
 GET http://127.0.0.1:8219/producer/say
 Accept: application/json
+
+
+### 03-异步发送消息
+POST http://127.0.0.1:8219/producer/send/async
+Accept: application/json
+Content-Type: application/json
